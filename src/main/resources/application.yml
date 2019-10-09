@@ -1,0 +1,9 @@
+server:
+  port: 8088
+dubbo:
+  application:
+    name: producer
+  registry:
+    address: zookeeper://120.78.206.144:2181
+  scan:
+    base-packages: com.tobeng.dubbo.producer.service
